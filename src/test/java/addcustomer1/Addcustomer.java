@@ -84,6 +84,7 @@ public class Addcustomer {
 	public void generate_a_id() {
 		Assert.assertTrue(driver.getCurrentUrl(), true);
 		driver.findElement(By.tagName("h3"));
+		driver.quit();
 		// throw new cucumber.api.PendingException();
 	}
 
